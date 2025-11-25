@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\github\\coresandbox\\coresandbox\\intermediate\\build\\win64\\unrealeditor\\inc\\coresandbox\\uht\\sidescrollinggamemode.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\github\\coresandbox\\coresandbox\\intermediate\\build\\win64\\x64\\coresandboxeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\github\\coresandbox\\coresandbox\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\coresandbox\\definitions.coresandbox.h",
+            "d:\\github\\coresandbox\\coresandbox\\source\\coresandbox\\variant_sidescrolling\\sidescrollinggamemode.h",
+            "d:\\epiclibrary\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "d:\\epiclibrary\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "d:\\epiclibrary\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "d:\\epiclibrary\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "d:\\github\\coresandbox\\coresandbox\\intermediate\\build\\win64\\unrealeditor\\inc\\coresandbox\\uht\\sidescrollinggamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

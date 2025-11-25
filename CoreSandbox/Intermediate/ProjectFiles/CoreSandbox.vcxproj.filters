@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\CoreSandbox.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CoreSandbox.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\CoreSandboxEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\CoreSandbox">
+      <UniqueIdentifier>{66B4B017-68CD-3C7F-B808-6336F1AF2956}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CoreSandbox\CoreSandbox.Build.cs">
+      <Filter>Source\CoreSandbox</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\CoreSandbox\CoreSandbox.cpp">
+      <Filter>Source\CoreSandbox</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoreSandbox\CoreSandbox.h">
+      <Filter>Source\CoreSandbox</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoreSandbox\CoreSandboxCharacter.cpp">
+      <Filter>Source\CoreSandbox</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoreSandbox\CoreSandboxCharacter.h">
+      <Filter>Source\CoreSandbox</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoreSandbox\CoreSandboxGameMode.cpp">
+      <Filter>Source\CoreSandbox</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoreSandbox\CoreSandboxGameMode.h">
+      <Filter>Source\CoreSandbox</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoreSandbox\CoreSandboxPlayerController.cpp">
+      <Filter>Source\CoreSandbox</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoreSandbox\CoreSandboxPlayerController.h">
+      <Filter>Source\CoreSandbox</Filter>
+    </ClInclude>
+    <Filter Include="Source\CoreSandbox\Variant_Combat">
+      <UniqueIdentifier>{E276B71F-5B5A-3EBD-881D-C9E11F3ADBEA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CoreSandbox\Variant_Combat\CombatCharacter.cpp">
+      <Filter>Source\CoreSandbox\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoreSandbox\Variant_Combat\CombatCharacter.h">
+      <Filter>Source\CoreSandbox\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoreSandbox\Variant_Combat\CombatGameMode.cpp">
+      <Filter>Source\CoreSandbox\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoreSandbox\Variant_Combat\CombatGameMode.h">
+      <Filter>Source\CoreSandbox\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoreSandbox\Variant_Combat\CombatPlayerController.cpp">
+      <Filter>Source\CoreSandbox\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoreSandbox\Variant_Combat\CombatPlayerController.h">
+      <Filter>Source\CoreSandbox\Variant_Combat</Filter>
+    </ClInclude>
+    <Filter Include="Source\CoreSandbox\Variant_Combat\AI">
+      <UniqueIdentifier>{A780C88B-0FEF-35FC-A031-ECD0F25331C1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CoreSandbox\Variant_Combat\AI\CombatAIController.cpp">
+      <Filter>Source\CoreSandbox\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoreSandbox\Variant_Combat\AI\CombatAIController.h">
+      <Filter>Source\CoreSandbox\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoreSandbox\Variant_Combat\AI\CombatEnemy.cpp">
+      <Filter>Source\CoreSandbox\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoreSandbox\Variant_Combat\AI\CombatEnemy.h">
+      <Filter>Source\CoreSandbox\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoreSandbox\Variant_Combat\AI\CombatEnemySpawner.cpp">
+      <Filter>Source\CoreSandbox\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoreSandbox\Variant_Combat\AI\CombatEnemySpawner.h">
+      <Filter>Source\CoreSandbox\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoreSandbox\Variant_Combat\AI\CombatStateTreeUtility.cpp">
+      <Filter>Source\CoreSandbox\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoreSandbox\Variant_Combat\AI\CombatStateTreeUtility.h">
+      <Filter>Source\CoreSandbox\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoreSandbox\Variant_Combat\AI\EnvQueryContext_Player.cpp">
+      <Filter>Source\CoreSandbox\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoreSandbox\Variant_Combat\AI\EnvQueryContext_Player.h">
+      <Filter>Source\CoreSandbox\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\CoreSandbox\Variant_Combat\Animation">
+      <UniqueIdentifier>{D82D330C-DBC1-3F38-8E82-5FF570F2543C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CoreSandbox\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.cpp">
+      <Filter>Source\CoreSandbox\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoreSandbox\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.h">
+      <Filter>Source\CoreSandbox\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoreSandbox\Variant_Combat\Animation\AnimNotify_CheckCombo.cpp">
+      <Filter>Source\CoreSandbox\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoreSandbox\Variant_Combat\Animation\AnimNotify_CheckCombo.h">
+      <Filter>Source\CoreSandbox\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoreSandbox\Variant_Combat\Animation\AnimNotify_DoAttackTrace.cpp">
+      <Filter>Source\CoreSandbox\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoreSandbox\Variant_Combat\Animation\AnimNotify_DoAttackTrace.h">
+      <Filter>Source\CoreSandbox\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <Filter Include="Source\CoreSandbox\Variant_Combat\Gameplay">
+      <UniqueIdentifier>{FA39B4E5-88A8-3F19-A973-1320F3B5C1F8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CoreSandbox\Variant_Combat\Gameplay\CombatActivationVolume.cpp">
+      <Filter>Source\CoreSandbox\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoreSandbox\Variant_Combat\Gameplay\CombatActivationVolume.h">
+      <Filter>Source\CoreSandbox\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoreSandbox\Variant_Combat\Gameplay\CombatCheckpointVolume.cpp">
+      <Filter>Source\CoreSandbox\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoreSandbox\Variant_Combat\Gameplay\CombatCheckpointVolume.h">
+      <Filter>Source\CoreSandbox\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoreSandbox\Variant_Combat\Gameplay\CombatDamageableBox.cpp">
+      <Filter>Source\CoreSandbox\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoreSandbox\Variant_Combat\Gameplay\CombatDamageableBox.h">
+      <Filter>Source\CoreSandbox\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoreSandbox\Variant_Combat\Gameplay\CombatDummy.cpp">
+      <Filter>Source\CoreSandbox\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoreSandbox\Variant_Combat\Gameplay\CombatDummy.h">
+      <Filter>Source\CoreSandbox\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoreSandbox\Variant_Combat\Gameplay\CombatLavaFloor.cpp">
+      <Filter>Source\CoreSandbox\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoreSandbox\Variant_Combat\Gameplay\CombatLavaFloor.h">
+      <Filter>Source\CoreSandbox\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\CoreSandbox\Variant_Combat\Interfaces">
+      <UniqueIdentifier>{EF9292A9-5542-3326-9CA8-B718983D858B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CoreSandbox\Variant_Combat\Interfaces\CombatActivatable.cpp">
+      <Filter>Source\CoreSandbox\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoreSandbox\Variant_Combat\Interfaces\CombatActivatable.h">
+      <Filter>Source\CoreSandbox\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoreSandbox\Variant_Combat\Interfaces\CombatAttacker.cpp">
+      <Filter>Source\CoreSandbox\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoreSandbox\Variant_Combat\Interfaces\CombatAttacker.h">
+      <Filter>Source\CoreSandbox\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoreSandbox\Variant_Combat\Interfaces\CombatDamageable.cpp">
+      <Filter>Source\CoreSandbox\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoreSandbox\Variant_Combat\Interfaces\CombatDamageable.h">
+      <Filter>Source\CoreSandbox\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <Filter Include="Source\CoreSandbox\Variant_Combat\UI">
+      <UniqueIdentifier>{A8AC2A13-D34C-37FA-9400-0697AD20C996}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CoreSandbox\Variant_Combat\UI\CombatLifeBar.cpp">
+      <Filter>Source\CoreSandbox\Variant_Combat\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoreSandbox\Variant_Combat\UI\CombatLifeBar.h">
+      <Filter>Source\CoreSandbox\Variant_Combat\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\CoreSandbox\Variant_Platforming">
+      <UniqueIdentifier>{3BB4CEBB-A433-3DAD-A19D-B12BB6C24BD2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CoreSandbox\Variant_Platforming\PlatformingCharacter.cpp">
+      <Filter>Source\CoreSandbox\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoreSandbox\Variant_Platforming\PlatformingCharacter.h">
+      <Filter>Source\CoreSandbox\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoreSandbox\Variant_Platforming\PlatformingGameMode.cpp">
+      <Filter>Source\CoreSandbox\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoreSandbox\Variant_Platforming\PlatformingGameMode.h">
+      <Filter>Source\CoreSandbox\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoreSandbox\Variant_Platforming\PlatformingPlayerController.cpp">
+      <Filter>Source\CoreSandbox\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoreSandbox\Variant_Platforming\PlatformingPlayerController.h">
+      <Filter>Source\CoreSandbox\Variant_Platforming</Filter>
+    </ClInclude>
+    <Filter Include="Source\CoreSandbox\Variant_Platforming\Animation">
+      <UniqueIdentifier>{8415B508-9409-36DC-8BDA-54D8E4AF8DE4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CoreSandbox\Variant_Platforming\Animation\AnimNotify_EndDash.cpp">
+      <Filter>Source\CoreSandbox\Variant_Platforming\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoreSandbox\Variant_Platforming\Animation\AnimNotify_EndDash.h">
+      <Filter>Source\CoreSandbox\Variant_Platforming\Animation</Filter>
+    </ClInclude>
+    <Filter Include="Source\CoreSandbox\Variant_SideScrolling">
+      <UniqueIdentifier>{92A4D09B-A3A1-395E-A83B-FE4F64676671}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CoreSandbox\Variant_SideScrolling\SideScrollingCameraManager.cpp">
+      <Filter>Source\CoreSandbox\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoreSandbox\Variant_SideScrolling\SideScrollingCameraManager.h">
+      <Filter>Source\CoreSandbox\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoreSandbox\Variant_SideScrolling\SideScrollingCharacter.cpp">
+      <Filter>Source\CoreSandbox\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoreSandbox\Variant_SideScrolling\SideScrollingCharacter.h">
+      <Filter>Source\CoreSandbox\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoreSandbox\Variant_SideScrolling\SideScrollingGameMode.cpp">
+      <Filter>Source\CoreSandbox\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoreSandbox\Variant_SideScrolling\SideScrollingGameMode.h">
+      <Filter>Source\CoreSandbox\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoreSandbox\Variant_SideScrolling\SideScrollingPlayerController.cpp">
+      <Filter>Source\CoreSandbox\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoreSandbox\Variant_SideScrolling\SideScrollingPlayerController.h">
+      <Filter>Source\CoreSandbox\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <Filter Include="Source\CoreSandbox\Variant_SideScrolling\AI">
+      <UniqueIdentifier>{8C617823-494F-359E-9A8E-DFEC01AB11FF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CoreSandbox\Variant_SideScrolling\AI\SideScrollingAIController.cpp">
+      <Filter>Source\CoreSandbox\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoreSandbox\Variant_SideScrolling\AI\SideScrollingAIController.h">
+      <Filter>Source\CoreSandbox\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoreSandbox\Variant_SideScrolling\AI\SideScrollingNPC.cpp">
+      <Filter>Source\CoreSandbox\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoreSandbox\Variant_SideScrolling\AI\SideScrollingNPC.h">
+      <Filter>Source\CoreSandbox\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoreSandbox\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.cpp">
+      <Filter>Source\CoreSandbox\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoreSandbox\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.h">
+      <Filter>Source\CoreSandbox\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\CoreSandbox\Variant_SideScrolling\Gameplay">
+      <UniqueIdentifier>{B4A7CB03-D2DD-3ED5-8301-A941A7EF5135}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CoreSandbox\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.cpp">
+      <Filter>Source\CoreSandbox\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoreSandbox\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.h">
+      <Filter>Source\CoreSandbox\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoreSandbox\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.cpp">
+      <Filter>Source\CoreSandbox\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoreSandbox\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.h">
+      <Filter>Source\CoreSandbox\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoreSandbox\Variant_SideScrolling\Gameplay\SideScrollingPickup.cpp">
+      <Filter>Source\CoreSandbox\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoreSandbox\Variant_SideScrolling\Gameplay\SideScrollingPickup.h">
+      <Filter>Source\CoreSandbox\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoreSandbox\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.cpp">
+      <Filter>Source\CoreSandbox\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoreSandbox\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.h">
+      <Filter>Source\CoreSandbox\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\CoreSandbox\Variant_SideScrolling\Interfaces">
+      <UniqueIdentifier>{B5C327B2-E735-3163-BCE3-7944FD417E3F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CoreSandbox\Variant_SideScrolling\Interfaces\SideScrollingInteractable.cpp">
+      <Filter>Source\CoreSandbox\Variant_SideScrolling\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoreSandbox\Variant_SideScrolling\Interfaces\SideScrollingInteractable.h">
+      <Filter>Source\CoreSandbox\Variant_SideScrolling\Interfaces</Filter>
+    </ClInclude>
+    <Filter Include="Source\CoreSandbox\Variant_SideScrolling\UI">
+      <UniqueIdentifier>{E2F856AF-4C42-3414-8577-35632C77736E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CoreSandbox\Variant_SideScrolling\UI\SideScrollingUI.cpp">
+      <Filter>Source\CoreSandbox\Variant_SideScrolling\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoreSandbox\Variant_SideScrolling\UI\SideScrollingUI.h">
+      <Filter>Source\CoreSandbox\Variant_SideScrolling\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

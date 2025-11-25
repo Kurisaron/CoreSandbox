@@ -1,0 +1,34 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\github\\coresandbox\\coresandbox\\source\\coresandbox\\variant_sidescrolling\\gameplay\\sidescrollingpickup.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\github\\coresandbox\\coresandbox\\intermediate\\build\\win64\\x64\\coresandboxeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\github\\coresandbox\\coresandbox\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\coresandbox\\definitions.coresandbox.h",
+            "d:\\github\\coresandbox\\coresandbox\\source\\coresandbox\\variant_sidescrolling\\gameplay\\sidescrollingpickup.h",
+            "d:\\github\\coresandbox\\coresandbox\\intermediate\\build\\win64\\unrealeditor\\inc\\coresandbox\\uht\\sidescrollingpickup.generated.h",
+            "d:\\epiclibrary\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "d:\\epiclibrary\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "d:\\epiclibrary\\ue_5.6\\engine\\source\\runtime\\net\\core\\public\\net\\core\\nettoken\\nettokenexportcontext.h",
+            "d:\\epiclibrary\\ue_5.6\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\irisobjectreferencepackagemap.h",
+            "d:\\epiclibrary\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\iriscore\\uht\\irisobjectreferencepackagemap.generated.h",
+            "d:\\epiclibrary\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementreplication.generated.h",
+            "d:\\epiclibrary\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "d:\\epiclibrary\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
+            "d:\\epiclibrary\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
+            "d:\\github\\coresandbox\\coresandbox\\source\\coresandbox\\variant_sidescrolling\\sidescrollinggamemode.h",
+            "d:\\epiclibrary\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "d:\\epiclibrary\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "d:\\epiclibrary\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "d:\\epiclibrary\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "d:\\github\\coresandbox\\coresandbox\\intermediate\\build\\win64\\unrealeditor\\inc\\coresandbox\\uht\\sidescrollinggamemode.generated.h",
+            "d:\\epiclibrary\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\components\\spherecomponent.h",
+            "d:\\epiclibrary\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "d:\\epiclibrary\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
+            "d:\\epiclibrary\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\spherecomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

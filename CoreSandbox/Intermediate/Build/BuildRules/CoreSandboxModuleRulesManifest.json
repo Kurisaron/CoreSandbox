@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Github\\CoreSandbox\\CoreSandbox\\Source\\CoreSandbox\\CoreSandbox.Build.cs",
+		"D:\\Github\\CoreSandbox\\CoreSandbox\\Source\\CoreSandbox.Target.cs",
+		"D:\\Github\\CoreSandbox\\CoreSandbox\\Source\\CoreSandboxEditor.Target.cs"
+	],
+	"EngineVersion": "5.6.1"
+}
